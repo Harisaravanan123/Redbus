@@ -1,1 +1,2 @@
-# Redbus
+Redbus is an online platform that facilitates bus ticket bookings in India. It allows users to search, compare, and book tickets for various bus services operated by private and government bus operators. Redbus is known for providing services like seat selection, reviews, ticket cancellation, and discounts. It covers a wide range of routes across India and other countries as well, offering travelers convenience in planning their bus journeys.
+In this project,I scrapped 10 state transport corporation buses by using selenium and push the csv file into postgresql.I also built the streamlit application and apply filter to analyse the datas.
