@@ -1,0 +1,16 @@
+routename,routelink,Bus_Name,Bus_Type,Departing_Time,Duration,Reaching_Time,Star_Rating,Price,Seat_Availability
+guwahati-to-diphu,https://www.redbus.in/bus-tickets/guwahati-to-diphu,KAAC TRANSPORT - 157250,Non AC Seater 2+2,11:30,06h 15m,17:45,4.5,361,20
+guwahati-to-diphu,https://www.redbus.in/bus-tickets/guwahati-to-diphu,Kareng Travels,Non AC Seater (2+2),11:45,06h 45m,18:30,4.5,361,28
+guwahati-to-bokolia-assam,https://www.redbus.in/bus-tickets/guwahati-to-bokolia-assam,KAAC TRANSPORT - 157250,Non AC Seater 2+2,11:30,04h 15m,15:45,3.7,299,20
+guwahati-to-bokolia-assam,https://www.redbus.in/bus-tickets/guwahati-to-bokolia-assam,Kareng Travels,Non AC Seater (2+2),11:45,04h 45m,16:30,4.1,299,28
+guwahati-to-dokmoka,https://www.redbus.in/bus-tickets/guwahati-to-dokmoka,KAAC TRANSPORT - 157250,Non AC Seater 2+2,11:30,03h 15m,14:45,4.3,250,35
+guwahati-to-dokmoka,https://www.redbus.in/bus-tickets/guwahati-to-dokmoka,Kareng Travels,Non AC Seater (2+2),11:45,04h 15m,16:00,4.3,250,30
+guwahati-to-langhin-assam,https://www.redbus.in/bus-tickets/guwahati-to-langhin-assam,KAAC TRANSPORT - 157250,Non AC Seater 2+2,11:30,03h 30m,15:00,4.2,266,27
+guwahati-to-langhin-assam,https://www.redbus.in/bus-tickets/guwahati-to-langhin-assam,Kareng Travels,Non AC Seater (2+2),11:45,04h 30m,16:15,4,266,44
+diphu-to-hamren,https://www.redbus.in/bus-tickets/diphu-to-hamren,KAAC TRANSPORT - 175492,Non AC Seater (2+2),13:00,04h 30m,17:30,2.7,246,41
+guwahati-to-manja-assam,https://www.redbus.in/bus-tickets/guwahati-to-manja-assam,KAAC TRANSPORT - 157250,Non AC Seater 2+2,11:30,05h 30m,17:00,4.3,350,20
+guwahati-to-manja-assam,https://www.redbus.in/bus-tickets/guwahati-to-manja-assam,Kareng Travels,Non AC Seater (2+2),11:45,06h 15m,18:00,3.9,350,45
+guwahati-to-hamren,https://www.redbus.in/bus-tickets/guwahati-to-hamren,KAAC TRANSPORT - 157357,Non AC Seater (2+2),12:00,06h 00m,18:00,5,254,42
+guwahati-to-manja-assam,https://www.redbus.in/bus-tickets/guwahati-to-manja-assam,KAAC TRANSPORT - 157250,Non AC Seater 2+2,11:30,05h 30m,17:00,4.3,350,20
+guwahati-to-manja-assam,https://www.redbus.in/bus-tickets/guwahati-to-manja-assam,Kareng Travels,Non AC Seater (2+2),11:45,06h 15m,18:00,3.9,350,45
+guwahati-to-hamren,https://www.redbus.in/bus-tickets/guwahati-to-hamren,KAAC TRANSPORT - 157357,Non AC Seater (2+2),12:00,06h 00m,18:00,5,254,42

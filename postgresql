@@ -1,0 +1,66 @@
+import psycopg2
+from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
+connection=psycopg2.connect(
+    host="localhost",
+    port="5432",
+    database="redbus",
+    user="postgres",
+    password="12345678"
+)
+connection.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
+writer=connection.cursor()
+
+# writer.execute("create table redbus_data(id int primary key,routename text,routelink text,Bus_Name text,Bus_Type text,Departing_Time time,Duration text,Reaching_Time time,Star_Rating float,Price decimal,Seat_Availability int)")
+writer.close()
+connection.close()
+
+
+import pandas as pd
+from sqlalchemy import create_engine
+import psycopg2
+host="localhost"
+port="5432"
+database="redbus"
+user="postgres"
+password="12345678"
+engine_string=f"postgresql://{user}:{password}@{host}:{port}/{database}"
+try:
+    engine=create_engine(engine_string)
+    data=pd.read_csv("redbus.csv")
+    df=pd.DataFrame(data)
+    table_name="redbus_data"
+    df.to_sql(table_name,engine,if_exists="replace",index=False)
+except Exception as E:
+    print(f"An error occured:{e}")    
+
+
+import psycopg2
+
+# Connect to the database
+conn = psycopg2.connect(
+    host="localhost",
+    port="5432",
+    database="redbus",
+    user="postgres",
+    password="12345678"
+)
+
+# Create a cursor for executing queries
+cursor = conn.cursor()
+
+# Create a table
+# cursor.execute("CREATE TABLE IF NOT EXISTS mytable (column1 int, column2 varchar(255))")
+
+# Sample query (replace with your actual query)
+query = "SELECT routename FROM redbus_data"
+# values = (1, "A")  # Sample values
+
+# Execute the query
+cursor.execute(query)
+
+# Commit changes (if applicable)
+conn.commit()
+
+# Close the connection and cursor
+cursor.close()
+conn.close()
